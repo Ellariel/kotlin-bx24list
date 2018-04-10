@@ -5,7 +5,7 @@ import kotlinx.coroutines.experimental.Deferred
 import kotlinx.coroutines.experimental.async
 import kotlin.coroutines.experimental.CoroutineContext
 
-fun saveData (
+fun saveData(
         app: App,
         data: List<Data>,
         coroutineContext: CoroutineContext = CommonPool
